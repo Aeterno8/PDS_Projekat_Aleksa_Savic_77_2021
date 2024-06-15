@@ -9,66 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb36ec6e-3db2-4d81-8d4a-772abb37835c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="eb36ec6e-3db2-4d81-8d4a-772abb37835c" name="Changes" comment="Upload.">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/logout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChapterBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChapterBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatMessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatMessageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatRoomBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatRoomBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/CommentBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/CommentBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/MessageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/UserBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/WebnovelBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/WebnovelBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Chapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Webnovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Webnovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChapterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChapterRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatMessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatRoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatRoomRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/WebnovelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/WebnovelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/RMIServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/RMIServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChapterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/WebnovelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/WebnovelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/AddWebnovelsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/AddWebnovelsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoadMoreWebnovelsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoadMoreWebnovelsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/RegistrationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/SessionValidationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/SessionValidationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/UserDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/UserDetailsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/DatabaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/PasswordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServerConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServerConfigurator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chapter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chapter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/chapter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chapter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webnovel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/webnovel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/webnovel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/webnovel.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,18 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Aeterno8"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aeterno8&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aeterno8/PDS_Projekat_Aleksa_Savic_77_2021.git",
-    "accountId": "98c6add1-d303-4e82-a3f9-c8ebedb4e43c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aeterno8/PDS_Projekat_Aleksa_Savic_77_2021.git&quot;,
+    &quot;accountId&quot;: &quot;98c6add1-d303-4e82-a3f9-c8ebedb4e43c&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -283,8 +233,19 @@
       <workItem from="1718480599154" duration="359000" />
       <workItem from="1718480980760" duration="2273000" />
       <workItem from="1718483281050" duration="2408000" />
-      <workItem from="1718486470334" duration="140000" />
+      <workItem from="1718486470334" duration="297000" />
+      <workItem from="1718487651463" duration="100000" />
+      <workItem from="1718487911279" duration="351000" />
     </task>
+    <task id="LOCAL-00001" summary="Upload.">
+      <option name="closed" value="true" />
+      <created>1718486659135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718486659135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,5 +261,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upload." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload." />
   </component>
 </project>

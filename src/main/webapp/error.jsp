@@ -29,6 +29,7 @@
                 <li><a href="profile.jsp" class="navbar-item">Profile</a></li>
                 <li><a href="info.jsp" class="navbar-item">Info</a></li>
                 <li><a href="chat.jsp" class="navbar-item">Chat</a></li>
+                <li><a href="logout.jsp" class="navbar-item">Logout</a></li>
             </ul>
         </div>
     </nav>
