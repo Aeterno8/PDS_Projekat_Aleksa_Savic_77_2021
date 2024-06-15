@@ -36,6 +36,8 @@
         UserBean user = userBeanOptional.get();
 
         boolean isAdmin = (user.getId() == 1);
+
+        Long webnovel_id = webnovelService.getWebnovelIdByChapterId(chapterId);
 %>
 
 <!DOCTYPE html>
@@ -85,7 +87,7 @@
             </div>
 
             <div class="toc-button">
-                <a href="toc.jsp">
+                <a href="webnovel.jsp?id=<%= webnovel_id %>">
                     <button>Table of Contents</button>
                 </a>
             </div>
@@ -120,7 +122,7 @@
             </div>
 
             <div class="toc-button">
-                <a href="toc.jsp">
+                <a href="webnovel.jsp?id=<%= webnovel_id %>">
                     <button>Table of Contents</button>
                 </a>
             </div>

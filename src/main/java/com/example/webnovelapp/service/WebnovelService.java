@@ -145,8 +145,9 @@ public class WebnovelService {
     }
 
     @Transactional
-    public Optional<Long> getWebnovelIdByChapterId(Long chapterId) {
-        return chapterRepository.findWebnovelIdByChapterId(chapterId);
+    public Long getWebnovelIdByChapterId(Long chapterId) {
+        return chapterRepository.findWebnovelIdByChapterId(chapterId)
+                .orElse(null);
     }
 
     public List<Webnovel> getFirstFiveWebnovels() {
