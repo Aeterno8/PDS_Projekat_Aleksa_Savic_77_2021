@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.admin-content {
+    max-width: 90%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.admin-content form {
+    margin-top: 15px;
+}
+
+.admin-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.admin-content .custom-file-upload {
+    height: 200px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #cacaca;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.admin-content .custom-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-content .custom-file-upload .icon svg {
+    height: 80px;
+    fill: rgba(75, 85, 99, 1);
+}
+
+.admin-content .custom-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-content .custom-file-upload .text span {
+    font-weight: 400;
+    color: rgba(75, 85, 99, 1);
+}
+
+.admin-content input[type="file"] {
+    display: none;
+}
+
+.admin-content button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.admin-content button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.admin-content p {
+    margin-top: 10px;
+}
+
+.status-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 4px solid #333;
+}
+
+@media (max-width: 768px) {
+
+    .admin-content .custom-file-upload {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .admin-content h2 {
+        font-size: 1.5rem;
+    }
+}

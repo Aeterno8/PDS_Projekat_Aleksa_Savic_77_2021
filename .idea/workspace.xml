@@ -1,18 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webnovelapp:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb36ec6e-3db2-4d81-8d4a-772abb37835c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChapterBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChapterBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatMessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatMessageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatRoomBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/ChatRoomBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/CommentBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/CommentBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/MessageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/WebnovelBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/beans/WebnovelBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Chapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/ChatRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Webnovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/model/Webnovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChapterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChapterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatMessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatRoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/ChatRoomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/WebnovelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/repository/WebnovelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/RMIServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/RMIServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/rmi/UserAuthenticationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChapterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/WebnovelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/service/WebnovelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/AddWebnovelsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/AddWebnovelsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoadMoreWebnovelsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoadMoreWebnovelsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/SessionValidationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/SessionValidationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/UserDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/servlet/UserDetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/DatabaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/util/PasswordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServerConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webnovelapp/websocket/ChatServerConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chapter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chapter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chapter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chapter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webnovel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/webnovel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webnovel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/webnovel.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Aeterno8"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Aeterno8/PDS_Projekat_Aleksa_Savic_77_2021.git",
+    "accountId": "98c6add1-d303-4e82-a3f9-c8ebedb4e43c"
+  }
+}]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -21,9 +114,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2hpKdxombJKYkCLuR480pqKcUoa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,17 +125,138 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RMIServer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.1.24.executor": "Run",
+    "Tomcat Server.Tomcat 9.0.89.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aleksa/test/webnovelapp",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15917969",
+    "project.structure.side.proportion": "0.27931035",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.24">
+    <configuration name="RMIServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.webnovelapp.rmi.RMIServer" />
+      <module name="webnovelapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.webnovelapp.rmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="webnovelapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/webnovelapp_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="6e7a6158-79d0-4f50-9b58-9e85eb2ba6e5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39299" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="webnovelapp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RMIServer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -54,8 +268,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718285672006</updated>
-      <workItem from="1718285673099" duration="1000" />
+      <workItem from="1718285673099" duration="10596000" />
+      <workItem from="1718399909022" duration="2377000" />
+      <workItem from="1718402345855" duration="508000" />
+      <workItem from="1718402864011" duration="268000" />
+      <workItem from="1718403139188" duration="1833000" />
+      <workItem from="1718404980851" duration="333000" />
+      <workItem from="1718405320123" duration="2189000" />
+      <workItem from="1718407518146" duration="1879000" />
+      <workItem from="1718409408054" duration="1664000" />
+      <workItem from="1718412341966" duration="115000" />
+      <workItem from="1718412468200" duration="27105000" />
+      <workItem from="1718478622964" duration="1949000" />
+      <workItem from="1718480599154" duration="359000" />
+      <workItem from="1718480980760" duration="2273000" />
+      <workItem from="1718483281050" duration="2408000" />
+      <workItem from="1718486470334" duration="140000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

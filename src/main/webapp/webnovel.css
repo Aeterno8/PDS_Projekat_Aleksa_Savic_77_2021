@@ -1,0 +1,83 @@
+/* Styles for webnovel.jsp */
+.novel-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.novel-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.novel-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.novel-description {
+    margin-top: 5px;
+    color: #666;
+}
+
+.toc {
+    margin-top: 20px;
+}
+
+.toc-item {
+    margin-bottom: 10px;
+}
+
+.toc-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    display: block;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.toc-item a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pagination-info {
+    display: flex;
+    align-items: center;
+}
+
+.pagination-info span {
+    margin-right: 10px;
+}
+
+.pagination-links {
+    display: flex;
+}
+
+.pagination-link {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-link:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination .current {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
